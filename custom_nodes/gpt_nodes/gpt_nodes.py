@@ -63,7 +63,6 @@ easy_nodes.register_type(MyFunClass, "FUN_CLASS")
 # create_field_setter_node to automatically create a node that sets the fields on the class.
 easy_nodes.create_field_setter_node(MyFunClass)
 
-
 @ComfyNode(my_category, is_output_node=True, color="#4F006F")
 def my_fun_class_node_processor(fun_class: MyFunClass) -> ImageTensor:
     print(f"Processing MyFunClass: {fun_class.width} {fun_class.height} {fun_class.color}")

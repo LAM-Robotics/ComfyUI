@@ -1,0 +1,3 @@
+[submodule "deps/ComfyUI-EasyNodes"]
+	path = deps/ComfyUI-EasyNodes
+	url = https://github.com/LAM-Robotics/ComfyUI-EasyNodes.git
